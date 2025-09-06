@@ -13,6 +13,7 @@ public class test_DeleteMethod {
 		when().delete().
 		then().
 		statusCode(204).log().all();
+		//add test cases 
 	}
 
 }
