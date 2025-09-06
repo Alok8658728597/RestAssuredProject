@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 
-public class test_DeleteMethod {
+public class test_DeleteMethod { 
 				@Test
 	public void test05() {
 		RestAssured.baseURI="https://reqres.in/api/users/853";
