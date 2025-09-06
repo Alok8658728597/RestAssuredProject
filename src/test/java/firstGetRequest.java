@@ -9,6 +9,7 @@ public class firstGetRequest {
 		Response res=RestAssured.get("https://reqres.in/api/users/2");
 		System.out.println(res.asString());
 		System.out.println(res.getStatusCode());
+		System.out.println("Alok Swains");
 		
 	}
 
