@@ -17,7 +17,7 @@ public class test_GETMethod {
 		//Validate the status code
 		int expected_statuscode=200;
 		int Actual_Statuscode=res.getStatusCode();
-		Assert.assertEquals(expected_statuscode, Actual_Statuscode);
+		Assert.assertEquals(expected_statuscode, Actual_Statuscode); 
 		        }
 		   @Test     
     public void test02() {

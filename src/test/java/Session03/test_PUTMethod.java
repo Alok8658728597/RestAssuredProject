@@ -20,7 +20,7 @@ public class test_PUTMethod {
 	public void test04() {
 					JSONObject nestedJson=new JSONObject();
 					nestedJson.put("year", 2019);
-					nestedJson.put("price", 1849.99);
+					nestedJson.put("price", 1849.99); 
 					nestedJson.put("CPU model", "Intel Core i9");
 					nestedJson.put("Hard disk size", "1 TB");
 					nestedJson.put("color", "silver");

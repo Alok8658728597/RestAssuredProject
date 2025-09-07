@@ -19,7 +19,7 @@ public class validateResponse {
 	@BeforeClass
 	public void setup() {
 		requestspec = new RequestSpecBuilder().setBaseUri("https://api.restful-api.dev")
-				.setContentType(ContentType.JSON).build();
+				.setContentType(ContentType.JSON).build(); 
 	}
 
 	@Test()

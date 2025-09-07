@@ -13,7 +13,7 @@ public class test_PostMethod {
 		// ✅ Creating nested JSON using org.json.simple.JSONObject
 		// This is useful for building request payloads dynamically
 
-		JSONObject nestedJson = new JSONObject();
+		JSONObject nestedJson = new JSONObject(); 
 		nestedJson.put("year", 2019);
 		nestedJson.put("price", 1849.99);
 		nestedJson.put("CPU model", "Intel Core i9");
