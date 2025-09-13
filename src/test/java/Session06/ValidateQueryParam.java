@@ -19,7 +19,7 @@ public class ValidateQueryParam {
 				.queryParam("id", 5)
 				.queryParam("id", 10)
 				.when().get();
-		// Validations
+		// Validations   
 		response.then().statusCode(200);
 		List<String> colors=response.jsonPath().get("data.color");
 		//response.then().log().all(); //for debugging purpose we use this
