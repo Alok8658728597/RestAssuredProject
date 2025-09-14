@@ -1,0 +1,43 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"type": "array",
+	"items": {
+		"type": "object",
+		"required": [
+			"id",
+			"name",
+			"data"
+		],
+		"properties": {
+			"id": {
+				"type": "string"
+			},
+			"name": {
+				"type": "string",
+				"minLength":20,
+				"maxLength": 30
+			},
+			"data": {
+				"type": "object",
+				"properties": {
+					"color": {
+						"type": "string"
+					},
+					"capacity GB": {
+						"type": "integer"
+					},
+					"price": {
+						"type": "number"
+					},
+					"Capacity": {
+						"type": "string"
+					},
+					"Screen size": {
+						"type": "number"
+					}
+				},
+				"additionalProperties": true
+			}
+		}
+	}
+}
