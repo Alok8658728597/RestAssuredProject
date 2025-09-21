@@ -67,7 +67,7 @@ It defines:
 
 package Session30JSONSchemaValidation;
 
-import io.restassured.RestAssured;
+import io.restassured.RestAssured; 
 
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 

@@ -1,5 +1,5 @@
 /*
-🔍 How to Identify JSON Types?
+🔍 How to Identify JSON Types? 
 
 📌 Object → Uses { ... }
 → Contains key-value pairs inside curly braces.
