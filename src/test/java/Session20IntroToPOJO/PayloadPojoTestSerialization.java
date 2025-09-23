@@ -55,6 +55,8 @@ public class PayloadPojoTestSerialization {
          */
         data.setPrice(1278.99);   // Correct: update price in data object
         payload.setData(data);    // Optional: set updated data in payload (if needed)
+        
+        
 
         // Send POST request with serialized POJO
         Response response = RestAssured.given()
@@ -70,7 +72,8 @@ public class PayloadPojoTestSerialization {
             .body("name", equalTo("Alok Is A Brand"));
 
         // Print response for debugging
-        System.out.println("Response: " + response.asString());
+        Data data1=payload.getData();
+        System.out.println(data1.getYear());
     }
 }
 
