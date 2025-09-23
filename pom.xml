@@ -53,6 +53,15 @@
     <artifactId>json-schema-validator</artifactId>
     <version>5.5.0</version>
 </dependency>
+<!-- Lombok: Generates getters, setters, constructors, and other boilerplate code at compile time -->
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.42</version>
+    <scope>provided</scope>
+</dependency>
+
+
 
 
     
