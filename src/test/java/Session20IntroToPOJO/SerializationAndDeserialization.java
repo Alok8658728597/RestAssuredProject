@@ -1,5 +1,4 @@
-package Session20POJO;
-import Session20POJO.Employee;
+package Session20IntroToPOJO;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -9,6 +8,8 @@ import org.testng.annotations.Test;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+
+import Session20IntroToPOJO.Employee;
 
 public class SerializationAndDeserialization {
 	@Test

@@ -1,4 +1,4 @@
-package Session20POJO;
+package Session20IntroToPOJO;
 
 public class Employee {
 /*Name":"Rohan",
